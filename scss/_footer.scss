@@ -1,0 +1,21 @@
+footer, .footer{
+	background:$dark;
+	color:$white;
+	padding-top:rem-calc(25);
+	
+	.colophon{
+		font-size:0.750rem;
+	}
+	
+	hr {
+		border-color: rgba(255,255,255,0.25);
+	}
+	
+	.title{
+		padding: rem-calc(5);
+		background:rgba($black,0.25);
+		color:$white;
+		@include box-emboss(0.35, 0.05);
+	}
+	
+}

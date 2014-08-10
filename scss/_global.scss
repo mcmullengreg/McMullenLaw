@@ -1,0 +1,30 @@
+body{
+	&.admin-bar .inner-wrap{
+		margin-top: rem-calc(35);
+	}
+	
+	a{
+	text-decoration: none;
+	}
+
+	p, ul{
+		font-size: 0.875rem;
+	}
+}
+
+.main{
+	margin-top: 2.5rem;	
+}
+
+.slides{
+	background: $light;
+	padding:2rem 0;
+}
+
+.boxEmboss{
+	@include box-emboss(0.5, 0.5);
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
