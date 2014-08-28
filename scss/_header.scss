@@ -1,0 +1,57 @@
+header{	
+
+	background: none;
+	padding:rem-calc(20 0);
+	.logo{
+/* 		padding: rem-calc(25 0 25 0); */
+		margin:0;
+	}
+	
+	.title{
+		font-size: rem-calc(28);
+		padding:0;
+	}
+	
+	.site-description{
+		font-size: 1rem;
+		margin:1rem 0 .25rem 0; padding: 0;
+		line-height: 1;
+	}
+	.service-location{
+		font-weight: bold;
+		color:$primary-color;
+	}
+}
+.name{
+	a{
+		font-size:rem-calc(18);
+		color: $white;
+	}
+}
+.navSearch{
+	padding:rem-calc(15 0 0);
+	display:none;
+	background: $black;
+	
+	input[type=text]{
+		background: rgba($white, 0.85);
+		border:none;
+	}
+	input[type=text]:focus{
+		box-shadow: none;
+		border:none;
+		outline:none;
+	}
+	input[type=submit]{
+		padding:0;
+		background: $primary-color;
+	}
+}
+
+.breadcrumb-container{
+	background: $crumb-bg;
+	border-bottom:solid 1px scale-color($crumb-bg, $lightness: -20%);
+	ul{
+		margin:0;
+	}
+}

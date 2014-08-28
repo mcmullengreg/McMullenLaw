@@ -1,21 +1,33 @@
 footer, .footer{
-	background:$dark;
+	background:$darkGrey;
 	color:$white;
-	padding-top:rem-calc(25);
 	
 	.colophon{
 		font-size:0.750rem;
 	}
 	
 	hr {
-		border-color: rgba(255,255,255,0.25);
+		padding: 0;
+		border: none;
+		border-top: solid 2px rgba($white, 0.25);
+		color: rgba($white, 0.25);
+    		text-align: center;
+    }
+    hr:after{
+    		content: "MLO";
+    		display: inline-block;
+    		position: relative; 
+    		top: -0.7em;  
+    		font-size: 1.5em;
+    		padding: 0 0.25em;
+    		background: $darkGrey;
+    	}
+	.widget{
+		.title{
+			padding: rem-calc(5 0);
+			color:$white;
+			font-size: rem-calc(18);
+			font-weight: bold;
+		}
 	}
-	
-	.title{
-		padding: rem-calc(5);
-		background:rgba($black,0.25);
-		color:$white;
-		@include box-emboss(0.35, 0.05);
-	}
-	
 }

@@ -9,3 +9,7 @@ require_once('library/menu-walker.php');
 require_once('library/navigation.php');
 require_once('library/theme-support.php');
 require_once('library/widget-areas.php');
+require_once('library/widgets.php');
+require_once('library/breadcrumbs.php');
+require_once('library/theme-options.php');
+?>

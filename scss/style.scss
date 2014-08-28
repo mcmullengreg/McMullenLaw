@@ -1,4 +1,4 @@
-/*
+/*!
 Theme Name: McMullen Law Office
 Theme URI: http://code.gregoryamcmullen.com/
 Author: Greg McMullen
@@ -12,12 +12,12 @@ Text Domain:
 
 */
 
-@import "settings", "variables", "mixins";
+@import "settings", "mixins";
 @import "foundation";
-@import "footer", "global";
+@import "global", "header", "hero", "footer";
 
 // Or selectively include components
-// @import
+//   @import
 //   "foundation/components/accordion",
 //   "foundation/components/alert-boxes",
 //   "foundation/components/block-grid",
@@ -38,6 +38,7 @@ Text Domain:
 //   "foundation/components/orbit",
 //   "foundation/components/pagination",
 //   "foundation/components/panels",
+//   "foundation/functions",
 //   "foundation/components/pricing-tables",
 //   "foundation/components/progress-bars",
 //   "foundation/components/reveal",

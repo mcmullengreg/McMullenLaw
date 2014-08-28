@@ -1,0 +1,31 @@
+.hero{
+	padding:rem-calc(35 0);
+	background: url('assets/img/books-full.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: $white;
+	height: rem-calc(350);
+	
+	@include box-emboss(0.25,0.25);
+		
+	ul li div {
+		background:rgba($black, 0.45);
+		padding: rem-calc(10);
+		margin-top:rem-calc(225);
+		
+		.title{
+			color:$white;
+			@include text-shadow(1px, 1px, 1px, $darkGrey);
+			font-size:rem-calc(20);
+		}
+	}
+}
+
+@media only screen and (max-width: 40em) {
+	.hero{
+		max-height: rem-calc(125) !important;
+		background-size: cover !important; 
+	}
+}
